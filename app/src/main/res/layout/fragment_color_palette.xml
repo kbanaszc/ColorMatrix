@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+        android:id="@+id/color_palete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/drawingGrid"
+        app:layout_constraintVertical_bias="0.0">
+
+        <View
+            android:id="@+id/color_to_pick_1"
+            android:layout_width="@dimen/color2pick_size"
+            android:layout_height="@dimen/color2pick_size"
+            android:background="@drawable/shapes"
+            android:backgroundTint="@color/red"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/color_to_pick_2"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0" />
+
+        <View
+            android:id="@+id/color_to_pick_2"
+            android:layout_width="@dimen/color2pick_size"
+            android:layout_height="@dimen/color2pick_size"
+            android:background="@drawable/shapes"
+            android:backgroundTint="@color/red"
+            app:layout_constraintBottom_toBottomOf="@+id/color_to_pick_1"
+            app:layout_constraintEnd_toStartOf="@+id/color_to_pick_3"
+            app:layout_constraintStart_toEndOf="@+id/color_to_pick_1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <View
+            android:id="@+id/color_to_pick_3"
+            android:layout_width="@dimen/color2pick_size"
+            android:layout_height="@dimen/color2pick_size"
+            android:background="@drawable/shapes"
+            android:backgroundTint="@color/red"
+            app:layout_constraintBottom_toBottomOf="@+id/color_to_pick_2"
+            app:layout_constraintEnd_toStartOf="@+id/color_to_pick_4"
+            app:layout_constraintStart_toEndOf="@+id/color_to_pick_2"
+            app:layout_constraintTop_toTopOf="@+id/color_to_pick_2" />
+
+        <View
+            android:id="@+id/color_to_pick_4"
+            android:layout_width="@dimen/color2pick_size"
+            android:layout_height="@dimen/color2pick_size"
+            android:background="@drawable/shapes"
+            android:backgroundTint="@color/red"
+            app:layout_constraintBottom_toBottomOf="@+id/color_to_pick_3"
+            app:layout_constraintEnd_toStartOf="@+id/color_to_pick_5"
+            app:layout_constraintStart_toEndOf="@+id/color_to_pick_3"
+            app:layout_constraintTop_toTopOf="@+id/color_to_pick_3" />
+
+        <View
+            android:id="@+id/color_to_pick_5"
+            android:layout_width="@dimen/color2pick_size"
+            android:layout_height="@dimen/color2pick_size"
+            android:background="@drawable/shapes"
+            android:backgroundTint="@color/red"
+            app:layout_constraintBottom_toBottomOf="@+id/color_to_pick_4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/color_to_pick_4"
+            app:layout_constraintTop_toTopOf="@+id/color_to_pick_4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

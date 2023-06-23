@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/drawingGridMenuItem"
+        android:title="Draw New"
+        android:icon="@drawable/ic_baseline_grid"/>
+    <item
+        android:id="@+id/yourWorksMenuFragment"
+        android:title="Your Works"
+        android:icon="@drawable/ic_your_works" />
+    <item
+        android:id="@+id/availableDevicesMenuItem"
+        android:title="AvailableDevices"
+        android:icon="@drawable/ic_baseline_grade_24"/>
+</menu>
