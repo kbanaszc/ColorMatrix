@@ -1,4 +1,4 @@
-
+# ColorMatrix
 
 ![schemat_calosci](https://github.com/kbanaszc/ColorMatrix/assets/58666746/7ead4404-64fe-464b-a65b-8074fbb6c92f)
 
@@ -34,4 +34,3 @@ Conection between display and smartphone is provided by usage of Firebase Databa
 ![12](https://github.com/kbanaszc/ColorMatrix/assets/58666746/970bc203-41b5-4454-bad3-c5a3e5303de7)
 
 
-# ColorMatrix
